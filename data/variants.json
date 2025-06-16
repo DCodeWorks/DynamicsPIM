@@ -1,0 +1,74 @@
+[
+  {
+    "variantId": "CZ7836-600_C10",
+    "sku": "CZ7836-600_C10",
+    "colorId": "CZ7836-600",
+    "styleId": "CZ7836",
+    "sizeId": "C10",
+    "barcodeId": "0123456789012",
+    "ErpProductId": "ERP1001"
+  },
+  {
+    "variantId": "CZ7836-600_C12",
+    "sku": "CZ7836-600_C12",
+    "colorId": "CZ7836-600",
+    "styleId": "CZ7836",
+    "sizeId": "C12",
+    "barcodeId": "0123456789013",
+    "ErpProductId": "ERP1002"
+  },
+  {
+    "variantId": "CZ7836-300_C10",
+    "sku": "CZ7836-300_C10",
+    "colorId": "CZ7836-300",
+    "styleId": "CZ7836",
+    "sizeId": "C10",
+    "barcodeId": "0123456789014",
+    "ErpProductId": "ERP1003"
+  },
+  {
+    "variantId": "CZ7836-300_C12",
+    "sku": "CZ7836-300_C12",
+    "colorId": "CZ7836-300",
+    "styleId": "CZ7836",
+    "sizeId": "C12",
+    "barcodeId": "0123456789015",
+    "ErpProductId": "ERP1004"
+  },
+  {
+    "variantId": "ADIEVO-001_S",
+    "sku": "ADIEVO-001_S",
+    "colorId": "ADIEVO-001",
+    "styleId": "ADIEVO",
+    "sizeId": "S",
+    "barcodeId": "0123456789020",
+    "ErpProductId": "ERP2001"
+  },
+  {
+    "variantId": "ADIEVO-001_M",
+    "sku": "ADIEVO-001_M",
+    "colorId": "ADIEVO-001",
+    "styleId": "ADIEVO",
+    "sizeId": "M",
+    "barcodeId": "0123456789021",
+    "ErpProductId": "ERP2002"
+  },
+  {
+    "variantId": "CLTH123-UNI_ONE",
+    "sku": "CLTH123-UNI_ONE",
+    "colorId": "CLTH123-UNI",
+    "styleId": "CLTH123",
+    "sizeId": "ONE",
+    "barcodeId": "0123456789030",
+    "ErpProductId": "ERP3001"
+  },
+  {
+    "variantId": "ACC456-BLK_ONE",
+    "sku": "ACC456-BLK_ONE",
+    "colorId": "ACC456-BLK",
+    "styleId": "ACC456",
+    "sizeId": "ONE",
+    "barcodeId": "0123456789040",
+    "ErpProductId": "ERP4001"
+  }
+]

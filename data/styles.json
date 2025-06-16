@@ -1,0 +1,42 @@
+[
+  {
+    "styleId": "CZ7836",
+    "name": "W NIKE VICTORI ONE SHWR SLIDE",
+    "imageUrl": "https://cdn.hudson.com.mt/images/JS4455/shared/1000/webp/JS4455_000_001.webp",
+    "imageUrl2": "https://cdn.hudson.com.mt/images/JS4455/shared/1000/webp/JS4455_000_002.webp",
+    "imageUrl3": "https://cdn.hudson.com.mt/images/JS4455/shared/1000/webp/JS4455_000_003.webp",
+    "productType": "footwear",
+    "gender": "Women",
+    "brand": "Nike"
+  },
+  {
+    "styleId": "ADIEVO",
+    "name": "Adizero Evo SL W LUCPNKCBLACKFTWWHT",
+    "imageUrl": "https://cdn.hudson.com.mt/images/ADIEVO-001/shared/1000/webp/ADIEVO-001_001.webp",
+    "imageUrl2": "https://cdn.hudson.com.mt/images/ADIEVO-001/shared/1000/webp/ADIEVO-001_002.webp",
+    "imageUrl3": "https://cdn.hudson.com.mt/images/ADIEVO-001/shared/1000/webp/ADIEVO-001_003.webp",
+    "productType": "footwear",
+    "gender": "Women",
+    "brand": "Adidas"
+  },
+  {
+    "styleId": "CLTH123",
+    "name": "Essential T-Shirt",
+    "imageUrl": "https://cdn.hudson.com.mt/images/CLTH123/shared/1000/webp/CLTH123_001.webp",
+    "imageUrl2": "https://cdn.hudson.com.mt/images/CLTH123/shared/1000/webp/CLTH123_002.webp",
+    "imageUrl3": "https://cdn.hudson.com.mt/images/CLTH123/shared/1000/webp/CLTH123_003.webp",
+    "productType": "clothing",
+    "gender": "Unisex",
+    "brand": "Generic"
+  },
+  {
+    "styleId": "ACC456",
+    "name": "Leather Belt",
+    "imageUrl": "https://cdn.hudson.com.mt/images/ACC456/shared/1000/webp/ACC456_001.webp",
+    "imageUrl2": "https://cdn.hudson.com.mt/images/ACC456/shared/1000/webp/ACC456_002.webp",
+    "imageUrl3": "https://cdn.hudson.com.mt/images/ACC456/shared/1000/webp/ACC456_003.webp",
+    "productType": "accessories",
+    "gender": "Unisex",
+    "brand": "Generic"
+  }
+]

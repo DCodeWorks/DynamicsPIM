@@ -1,0 +1,38 @@
+[
+  {
+    "itemNumber": "1001",
+    "colorId": "CZ7836-600",
+    "styleId": "CZ7836",
+    "productColorName": "Black/White"
+  },
+  {
+    "itemNumber": "1002",
+    "colorId": "CZ7836-300",
+    "styleId": "CZ7836",
+    "productColorName": "Red/Green"
+  },
+  {
+    "itemNumber": "2001",
+    "colorId": "ADIEVO-001",
+    "styleId": "ADIEVO",
+    "productColorName": "Pink/Black"
+  },
+  {
+    "itemNumber": "2002",
+    "colorId": "ADIEVO-002",
+    "styleId": "ADIEVO",
+    "productColorName": "White/Blue"
+  },
+  {
+    "itemNumber": "3001",
+    "colorId": "CLTH123-UNI",
+    "styleId": "CLTH123",
+    "productColorName": "Heather Gray"
+  },
+  {
+    "itemNumber": "4001",
+    "colorId": "ACC456-BLK",
+    "styleId": "ACC456",
+    "productColorName": "Black"
+  }
+]
