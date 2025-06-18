@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, ChangeEvent } from "react";
 import Image from "next/image";
 import { ProductStyle } from "../types/Hierarchy";
+import QualityScore from "./QualityScore";
 
 interface ProductListProps {
   productStyles: ProductStyle[];
@@ -35,7 +36,7 @@ export default function ProductList({ productStyles }: ProductListProps) {
           <Link href={`/products/${product.styleId}`}>
             <li
               key={product.styleId}
-              className=" p-4 bg-white rounded-lg shadow"
+              className=" p-4 bg-white rounded-lg shadow mb-4"
             >
               {product.imageUrl && (
                 <Image
@@ -57,6 +58,7 @@ export default function ProductList({ productStyles }: ProductListProps) {
               </p>
               <p className=" text-sm text-gray-600">Gender: {product.gender}</p>
               <p className=" text-sm text-gray-600">Brand: {product.brand}</p>
+              <QualityScore />
             </li>
           </Link>
         ))}
