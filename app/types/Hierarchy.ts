@@ -24,6 +24,7 @@ export interface ProductVariant {
   sizeId: string;
   barcodeId: string;
   ErpProductId: string;
+  euSize?:string
 }
 
 export enum ProductTypes {

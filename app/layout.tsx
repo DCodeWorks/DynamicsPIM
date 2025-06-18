@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className="flex h-screen bg-gray-50">
         {/* Sidebar */}
         <aside className="w-60 bg-white border-r p-4">
-          <h1 className="text-xl font-bold mb-6">Hudson's PIM</h1>
+          <h1 className="text-xl font-bold mb-6">Hudson&apos;s PIM</h1>
           <nav className="space-y-2">
             <a href="/" className="block px-2 py-1 rounded hover:bg-gray-100">
               Dashboard
@@ -26,16 +26,16 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               Products
             </a>
             <a
-              href="/enrichment/size"
+              href="/reference/footwear-sizing"
               className="block px-2 py-1 rounded hover:bg-gray-100"
             >
-              Size Mapping
+              Footwear Sizing
             </a>
             <a
-              href="/enrichment/segment"
+              href="/anomalies/sizes"
               className="block px-2 py-1 rounded hover:bg-gray-100"
             >
-              Segmentation
+              Sizes Issues
             </a>
           </nav>
         </aside>

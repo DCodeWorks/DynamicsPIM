@@ -4,13 +4,14 @@ import Link from "next/link";
 export default function ProductColorPage({
   params,
 }: {
-  params: { styleId: string; colorId: string };
+  params: { styleId: string; colorId: string, itemNumber: string };
 }) {
-  const { colorId, styleId } = params;
+  const { colorId, styleId, itemNumber } = params;
 
   const color: ProductColor = {
     colorId,
     styleId,
+    itemNumber
   };
 
   const variants: ProductVariant[] = [
@@ -20,7 +21,8 @@ export default function ProductColorPage({
       sizeId: "C10",
       barcodeId: "21324",
       ErpProductId: "7236457654",
-      styleId
+      styleId,
+      sku:"CZ7836-300_C10"
     },
     {
       variantId: `${colorId}_C12`,
@@ -28,7 +30,8 @@ export default function ProductColorPage({
       sizeId: "C12",
       barcodeId: "98758",
       ErpProductId: "8697967987",
-      styleId
+      styleId,
+      sku:"CZ7836-300_C12"
     },
   ];
 

@@ -33,7 +33,7 @@ export default function ProductList({ productStyles }: ProductListProps) {
 
       <ul className=" space-y-2">
         {filteredProducts.map((product) => (
-          <Link href={`/products/${product.styleId}`}>
+          <Link href={`/products/${product.styleId}`} key={product.styleId}>
             <li
               key={product.styleId}
               className=" p-4 bg-white rounded-lg shadow mb-4"

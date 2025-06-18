@@ -36,22 +36,22 @@
     "ErpProductId": "ERP1004"
   },
   {
-    "variantId": "ADIEVO-001_S",
-    "sku": "ADIEVO-001_S",
-    "colorId": "ADIEVO-001",
-    "styleId": "ADIEVO",
-    "sizeId": "S",
-    "barcodeId": "0123456789020",
-    "ErpProductId": "ERP2001"
+    "variantId": "43109-0C4_W10",
+    "sku": "43109-0C4_W10",
+    "colorId": "43109-0C4",
+    "styleId": "43109",
+    "sizeId": "W10",
+    "barcodeId": "198410119549",
+    "ErpProductId": "5642315114"
   },
   {
-    "variantId": "ADIEVO-001_M",
-    "sku": "ADIEVO-001_M",
-    "colorId": "ADIEVO-001",
-    "styleId": "ADIEVO",
-    "sizeId": "M",
-    "barcodeId": "0123456789021",
-    "ErpProductId": "ERP2002"
+    "variantId": "43109-0C4_W5",
+    "sku": "43109-0C4_W5",
+    "colorId": "43109-0C4",
+    "styleId": "43109",
+    "sizeId": "W5",
+    "barcodeId": "198410119570",
+    "ErpProductId": "5642315109"
   },
   {
     "variantId": "CLTH123-UNI_ONE",

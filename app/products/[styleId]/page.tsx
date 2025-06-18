@@ -3,6 +3,7 @@ import Link from "next/link";
 import colorProductsJson from "@/data/colors.json";
 import styleProductsJson from "@/data/styles.json";
 import QualityScore from "@/app/components/QualityScore";
+import Image from "next/image";
 
 // Utility to format "camelCase" to "Proper Case"
 function formatLabel(key: string): string {
@@ -28,7 +29,7 @@ export default function ProductStylePage({
   if (!style) {
     return <h1 className="text-red-600 font-bold">Style not found</h1>;
   }
-
+  type ImageKey = "imageUrl" | "imageUrl2" | "imageUrl3";
   return (
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-4">Product Name: {style.name}</h1>
@@ -38,17 +39,21 @@ export default function ProductStylePage({
       <div className="mt-6">
         <h2 className="text-lg font-semibold mb-2">Images</h2>
         <div className="flex gap-4 flex-wrap">
-          {["imageUrl", "imageUrl2", "imageUrl3"].map((imgKey) => {
-            const src = (style as any)[imgKey];
-            return src ? (
-              <img
-                key={imgKey}
-                src={src}
-                alt={imgKey}
-                className="w-40 h-auto border rounded-md shadow"
-              />
-            ) : null;
-          })}
+          {(["imageUrl", "imageUrl2", "imageUrl3"] as ImageKey[]).map(
+            (imgKey) => {
+              const src = style[imgKey];
+              return src ? (
+                <Image
+                  key={imgKey}
+                  src={src}
+                  alt={imgKey}
+                  className="w-40 h-auto border rounded-md shadow"
+                  width={40}
+                  height={40}
+                />
+              ) : null;
+            }
+          )}
         </div>
       </div>
 

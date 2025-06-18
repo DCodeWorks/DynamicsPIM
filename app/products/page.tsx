@@ -1,5 +1,5 @@
 import ProductList from "@/app/components/ProductList";
-import { ProductStyle, ProductTypes } from "../types/Hierarchy";
+import { ProductStyle } from "../types/Hierarchy";
 import productStylesJson from "@/data/styles.json";
 
 export default function ProductsPage() {

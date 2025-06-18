@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "rawLabel": "10 US",
+    "brand": "Nike",
+    "gender": "Women",
+    "sizeSystem": "US",
+    "usSize": "10",
+    "ukSize": "8",
+    "euSize": "42",
+    "cmSize": "—",
+    "isComplete": true,
+    "code": "nike_women_us_10_us"
+  },
+  {
+    "id": "2",
+    "rawLabel": "9 UK",
+    "brand": "Nike",
+    "gender": "Women",
+    "sizeSystem": "UK",
+    "usSize": "10",
+    "ukSize": "9",
+    "euSize": null,
+    "cmSize": null,
+    "isComplete": false,
+    "code": "nike_women_uk_9_uk"
+  }
+]
