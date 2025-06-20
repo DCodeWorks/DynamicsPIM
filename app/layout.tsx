@@ -37,6 +37,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             >
               Sizes Issues
             </a>
+            <a
+              href="#"
+              className="block px-2 py-1 rounded hover:bg-gray-100"
+            >
+              Users
+            </a>
           </nav>
         </aside>
 

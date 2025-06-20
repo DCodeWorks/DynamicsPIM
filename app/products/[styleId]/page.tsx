@@ -31,9 +31,28 @@ export default function ProductStylePage({
   }
   type ImageKey = "imageUrl" | "imageUrl2" | "imageUrl3";
   return (
-    <div className="p-6">
+    <div>
       <h1 className="text-2xl font-bold mb-4">Product Name: {style.name}</h1>
       <QualityScore />
+
+      {/* Render linked colors */}
+      <div className="mt-8">
+        <h2 className="text-xl font-semibold mb-3">Available Colors</h2>
+        <ul className="space-y-2">
+          {colorsLinkedToStyle
+            .filter((c) => c.styleId === styleId)
+            .map((product) => (
+              <li key={product.colorId}>
+                <Link
+                  href={`/products/${styleId}/${product.colorId}`}
+                  className="base-link"
+                >
+                  {product.colorId}
+                </Link>
+              </li>
+            ))}
+        </ul>
+      </div>
 
       {/* Render images horizontally */}
       <div className="mt-6">
@@ -77,25 +96,6 @@ export default function ProductStylePage({
           </div>
         );
       })}
-
-      {/* Render linked colors */}
-      <div className="mt-8">
-        <h2 className="text-xl font-semibold mb-3">Available Colors</h2>
-        <ul className="space-y-2">
-          {colorsLinkedToStyle
-            .filter((c) => c.styleId === styleId)
-            .map((product) => (
-              <li key={product.colorId}>
-                <Link
-                  href={`/products/${styleId}/${product.colorId}`}
-                  className="text-blue-600 hover:underline"
-                >
-                  {style.name} - {product.colorId}
-                </Link>
-              </li>
-            ))}
-        </ul>
-      </div>
     </div>
   );
 }

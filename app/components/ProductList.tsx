@@ -12,6 +12,7 @@ interface ProductListProps {
 
 export default function ProductList({ productStyles }: ProductListProps) {
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedStore, setSelectedStore] = useState("UJ-IT");
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value);
@@ -23,6 +24,20 @@ export default function ProductList({ productStyles }: ProductListProps) {
 
   return (
     <div>
+      <div className="flex items-center space-x-6 mb-6">
+        <label className="form-label">Select Store / OU:</label>
+        <select
+          value={selectedStore}
+          onChange={(e) => setSelectedStore(e.target.value)}
+          className="form-select"
+        >
+          <option value="">All Stores</option>
+          <option value="UJ-IT">Urban Jungle — Italy (EUR)</option>
+          <option value="UJ-MA">Urban Jungle — Morocco (MAD)</option>
+          <option value="HS-MT">Hudson Store — Malta (EUR)</option>
+        </select>
+      </div>
+
       <input
         type="text"
         placeholder="Search Products"
