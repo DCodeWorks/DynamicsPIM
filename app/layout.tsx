@@ -38,10 +38,22 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               Sizes Issues
             </a>
             <a
-              href="#"
+              href="/users"
               className="block px-2 py-1 rounded hover:bg-gray-100"
             >
               Users
+            </a>
+            <a
+              href="/settings"
+              className="block px-2 py-1 rounded hover:bg-gray-100"
+            >
+              Settings
+            </a>
+            <a
+              href="/logs"
+              className="block px-2 py-1 rounded hover:bg-gray-100"
+            >
+              Logs
             </a>
           </nav>
         </aside>
