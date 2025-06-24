@@ -1,0 +1,92 @@
+[
+  {
+    "id": "op1",
+    "name": "Export Products to Shopify",
+    "type": "Export to Shopify",
+    "lastRunAt": "2025-06-24T08:00:00Z",
+    "nextRunAt": "2025-06-24T10:00:00Z",
+    "itemsProcessed": 1245,
+    "schedule": "Every 2 hours"
+  },
+  {
+    "id": "op2",
+    "name": "Brand Auto-Enrichment",
+    "type": "Auto Attribute Enrichment",
+    "lastRunAt": "2025-06-24T00:00:00Z",
+    "nextRunAt": "2025-06-25T00:00:00Z",
+    "itemsProcessed": 3254,
+    "schedule": "Daily at midnight"
+  },
+  {
+    "id": "op3",
+    "name": "AI-Powered Description Enrichment",
+    "type": "AI Enrichment",
+    "lastRunAt": "2025-06-24T09:15:00Z",
+    "nextRunAt": "2025-06-24T12:15:00Z",
+    "itemsProcessed": 543,
+    "schedule": "Every 3 hours"
+  },
+  {
+    "id": "op4",
+    "name": "Copy EN→IT Attributes",
+    "type": "Copy Attributes",
+    "lastRunAt": "2025-06-23T23:30:00Z",
+    "nextRunAt": "2025-06-24T23:30:00Z",
+    "itemsProcessed": 789,
+    "schedule": "Daily at 23:30"
+  },
+  {
+    "id": "op5",
+    "name": "Set Default Category",
+    "type": "Set Attributes",
+    "lastRunAt": "2025-06-24T06:00:00Z",
+    "nextRunAt": "2025-06-24T12:00:00Z",
+    "itemsProcessed": 2100,
+    "schedule": "Every 6 hours"
+  },
+  {
+    "id": "op6",
+    "name": "Build Full Title (Concatenate)",
+    "type": "Concatenate Attributes",
+    "lastRunAt": "2025-06-24T07:30:00Z",
+    "nextRunAt": "2025-06-24T13:30:00Z",
+    "itemsProcessed": 1580,
+    "schedule": "Every 6 hours"
+  },
+  {
+    "id": "op7",
+    "name": "AI Keyword Tagging",
+    "type": "Enrichment with AI",
+    "lastRunAt": "2025-06-24T05:45:00Z",
+    "nextRunAt": "2025-06-24T11:45:00Z",
+    "itemsProcessed": 432,
+    "schedule": "Every 6 hours"
+  },
+  {
+    "id": "op8",
+    "name": "Stock Level Auto-Update",
+    "type": "Auto Attribute Enrichment",
+    "lastRunAt": "2025-06-24T02:00:00Z",
+    "nextRunAt": "2025-06-24T04:00:00Z",
+    "itemsProcessed": 8470,
+    "schedule": "Every 2 hours"
+  },
+  {
+    "id": "op9",
+    "name": "Copy FR→EN Descriptions",
+    "type": "Copy Attributes",
+    "lastRunAt": "2025-06-24T01:15:00Z",
+    "nextRunAt": "2025-06-25T01:15:00Z",
+    "itemsProcessed": 312,
+    "schedule": "Daily at 01:15"
+  },
+  {
+    "id": "op10",
+    "name": "Export Products to Shopify",
+    "type": "Export to Shopify",
+    "lastRunAt": "2025-06-24T01:00:00Z",
+    "nextRunAt": "2025-06-25T01:00:00Z",
+    "itemsProcessed": 5800,
+    "schedule": "Daily at 01:00"
+  }
+]

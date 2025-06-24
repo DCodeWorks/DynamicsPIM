@@ -33,6 +33,12 @@ export default function Sidebar() {
         >
           Settings
         </a>
+         <a
+          href="/operations"
+          className="block px-2 py-1 rounded hover:bg-gray-100"
+        >
+          Operations
+        </a>
         <a href="/logs" className="block px-2 py-1 rounded hover:bg-gray-100">
           Logs
         </a>
