@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Product enrichment & monitoring dashboard",
 };
 
-export function InnerLayout({ children }: { children: ReactNode }) {
+function InnerLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="flex h-screen bg-gray-50">
@@ -21,7 +21,6 @@ export function InnerLayout({ children }: { children: ReactNode }) {
 
           <main className="flex-1 p-6 overflow-auto">{children}</main>
         </div>
-        {/* Main content */}
       </body>
     </html>
   );

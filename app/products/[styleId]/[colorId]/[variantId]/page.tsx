@@ -1,41 +1,21 @@
 import { ProductVariant } from "@/app/types/Hierarchy";
 import Link from "next/link";
+import variantData from "@/data/variants.json";
 
 export default function ProductVariantPage({
   params,
 }: {
   params: {
     variantId: string;
-    colorId: string;
-    barcodeId: string;
-    ErpProductId: string;
-    sizeId: string;
-    styleId: string;
-    sku: string;
-    euSize: string;
   };
 }) {
-  const {
-    variantId,
-    colorId,
-    barcodeId,
-    ErpProductId,
-    sizeId,
-    styleId,
-    sku,
-    euSize,
-  } = params;
+  const { variantId } = params;
 
-  const variant: ProductVariant = {
-    variantId,
-    colorId,
-    barcodeId,
-    ErpProductId,
-    sizeId,
-    styleId,
-    sku,
-    euSize,
-  };
+  const variant: ProductVariant | undefined = (
+    variantData as ProductVariant[]
+  ).find((v) => v.variantId === variantId);
+
+  if (!variant) return <h1>no variant found!</h1>;
 
   return (
     <div>

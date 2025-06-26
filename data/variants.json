@@ -18,6 +18,15 @@
     "ErpProductId": "ERP1002"
   },
   {
+    "variantId": "CZ7836-600_C13",
+    "sku": "CZ7836-600_C13",
+    "colorId": "CZ7836-600",
+    "styleId": "CZ7836",
+    "sizeId": "C12",
+    "barcodeId": "0123456789548",
+    "ErpProductId": "ERP1003"
+  },
+  {
     "variantId": "CZ7836-300_C10",
     "sku": "CZ7836-300_C10",
     "colorId": "CZ7836-300",

@@ -3,36 +3,49 @@
     "itemNumber": "1001",
     "colorId": "CZ7836-600",
     "styleId": "CZ7836",
-    "productColorName": "Black/White"
+    "productColorName": "Black/White",
+    "associations": ["CZ7836-300", "CZ7836-500"]
   },
   {
     "itemNumber": "1002",
     "colorId": "CZ7836-300",
     "styleId": "CZ7836",
-    "productColorName": "Red/Green"
+    "productColorName": "Red/Green",
+    "associations": ["CZ7836-600", "CZ7836-500"]
+  },
+  {
+    "itemNumber": "1003",
+    "colorId": "CZ7836-500",
+    "styleId": "CZ7836",
+    "productColorName": "Red/Green",
+    "associations": ["CZ7836-600", "CZ7836-300"]
   },
   {
     "itemNumber": "43109-0C4",
     "colorId": "43109-0C4",
     "styleId": "43109",
-    "productColorName": "Wendy Cottage Crochet White Black"
+    "productColorName": "Wendy Cottage Crochet White Black",
+    "associations": ["43109-0NK"]
   },
   {
     "itemNumber": "43109-0NK",
     "colorId": "43109-0NK",
     "styleId": "43109",
-    "productColorName": "HEY DUDE-Wendy Cottage Crochet Multi-43109-0NK"
+    "productColorName": "HEY DUDE-Wendy Cottage Crochet Multi-43109-0NK",
+    "associations": ["43109-0C4"]
   },
   {
     "itemNumber": "3001",
     "colorId": "CLTH123-UNI",
     "styleId": "CLTH123",
-    "productColorName": "Heather Gray"
+    "productColorName": "Heather Gray",
+    "associations": []
   },
   {
     "itemNumber": "4001",
     "colorId": "ACC456-BLK",
     "styleId": "ACC456",
-    "productColorName": "Black"
+    "productColorName": "Black",
+    "associations": []
   }
 ]
