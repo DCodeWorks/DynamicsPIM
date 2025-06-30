@@ -18,7 +18,7 @@ export default function StyleLayout({ children }: { children: ReactNode }) {
       <div className=" base-link mb-4 mt-4">
         <Link href={"/products"}>Go Back to Products</Link>
       </div>
-      <div className="flex items-center space-x-6 mb-6 text-sm text-gray-700">
+      <div className="flex items-center justify-between space-x-6 mb-6 text-sm text-gray-700">
         <div className="flex items-center space-x-6 mb-6">
           <label htmlFor="channel" className=" mb-1 font-medium text-gray-600">
             Channel
@@ -55,6 +55,12 @@ export default function StyleLayout({ children }: { children: ReactNode }) {
             ))}
           </select>
         </div>
+        <button
+          type="submit"
+          className=" px-4 py-2 bg-blue-600 text-white rounded"
+        >
+          SAVE
+        </button>
       </div>
 
       <section>{children}</section>
